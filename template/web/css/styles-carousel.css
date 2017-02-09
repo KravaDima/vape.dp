@@ -1,0 +1,79 @@
+.carousel  {
+   max-width: 1000px; /* ширина всего блока */
+   margin: 20px auto;
+   width:100%;
+}
+.carousel-wrapper {
+   margin: 20px 50px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+}
+.carousel-items {
+   width: 10000px; /* устанавливаем большую ширину для набора элементов */
+   position: relative; /* позиционируем блок относительно основной области карусели */
+}
+.carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 300px; /* задаём ширину каждого элемента */
+   padding: 10px 20px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+   font-size: 0.7em;
+}
+.carousel-block:hover {
+   /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);*/
+   opacity: 0.8;
+}
+.carousel-block img{
+	display:block;
+}
+.carousel-block a{
+   color: #000;
+}
+.carousel-block a:hover{
+   color: red;
+}
+/*********** BUTTONS ***********/
+.carousel-button-left a, .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 150px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.carousel-button-left a{
+   float: left; 
+   background: url(../images/carousel-left.png) no-repeat; 
+}
+.carousel-button-right a{
+   float: right;
+   background: url(../images/carousel-right.png) no-repeat; 
+}
+
+/*********** SHADOW ***********/
+.shadow{
+	/*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);*/
+}
+
+@media only screen and (max-width: 320px) and (min-width: 240px) {
+   .carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 80px; /* задаём ширину каждого элемента */
+   padding: 10px 20px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+   font-size: 0.7em;
+   }
+   .carousel-button-left a, .carousel-button-right a{
+   top: 40px; 
+   }
+
+}
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+   .carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 120px; /* задаём ширину каждого элемента */
+   padding: 10px 20px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+   font-size: 0.7em;
+   }
+   .carousel-button-left a, .carousel-button-right a{
+   top: 60px; 
+   }
+}
