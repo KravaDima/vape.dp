@@ -87,6 +87,7 @@ body{
 	border: 1px solid #e9e9ea;
 	border-radius: 0 0 5px 5px;
 	color: #000;
+	display: none;
 }
 #res{
 	border-bottom: 1px solid #eaeaea;
@@ -109,7 +110,7 @@ body{
 	color: #000;
 }
 #search{
-	border-radius: 10px;
+	border-radius: 2px;
 }
 .wrap{
 	width:70%;

@@ -103,13 +103,17 @@
 			     var search = $("#search").val();
 			     $.ajax({
 			       type: "POST",
-			       url: "http://dripping.me/search/search/",
+			       url: "http://vape.dp/search/search/",
 			       data: {"search": search},
 			       cache: false,                                 
 			       success: function(response){
+			       	  $("#resSearch").show();
 			          $("#resSearch").html(response);
 			       }
 			     });
+			     $(document).click(function(){
+				  	$("#resSearch").hide();
+				  });
 			     return false;
 			   });
 			});
