@@ -4,7 +4,7 @@
 			<ul id="jquery-demo">
 			  <li>
 			    <a href="https://goo.gl/Gbvo87">
-			      <img src=<?php ROOT;?>"/upload/images/news/vapexpo.png" alt="Ароматизаторы TPA / TFA" />
+			      <img src=<?php ROOT;?>"/upload/images/news/vapexpo.png" alt="#VAPEXPO_KIEV" />
 			    </a>
 			    <div class="slider-detils">
 			    	<h3>#VAPEXPO_KIEV <label>4-5 марта</label></h3>
@@ -69,7 +69,8 @@
 						<ul>
 							<li><a href="eliquidvape/9">ATMOSE</a></li>
 							<li><a href="eliquidvape/16">KILO</a></li>
-							<li><a href="eliquidvape/11">ELIQUID FROM DRIPPING.ME</a></li>
+							<li><a href="/eliquidvape/11">МОНОВКУСЫ</a></li>
+							<li><a href="/eliquidvape/19">ELIQUID FROM DRIPPING.ME</a></li>
 						</ul>
 						<h3>ДЛЯ САМОЗАМЕСА</h3>
 						<ul>
