@@ -3,6 +3,16 @@
 			<div class="wrap">
 			<ul id="jquery-demo">
 			  <li>
+			    <a href="https://goo.gl/Gbvo87">
+			      <img src=<?php ROOT;?>"/upload/images/news/vapexpo.png" alt="Ароматизаторы TPA / TFA" />
+			    </a>
+			    <div class="slider-detils">
+			    	<h3>#VAPEXPO_KIEV <label>4-5 марта</label></h3>
+			    	<span>Киев МВЦ</br> Броварской пр-т, 15</span>
+			    	<a class="slide-btn" href="https://goo.gl/Gbvo87">Купить билет</a>
+			    </div>
+			  </li>
+			  <li>
 			    <a href="<?php ROOT;?>/aromavape/8">
 			      <img src=<?php ROOT;?>"/upload/images/news/tpa.png" alt="Ароматизаторы TPA / TFA" />
 			    </a>
@@ -103,6 +113,7 @@
 							<!---//caption-script---->
 						<?php foreach($lastestProducts as $product):?>
 						<div onclick="location.href='product/<?=$product["id"]?>';" class="product-grid fade">
+						<div class="product-grid-hover">
 							<div class="product-grid-head">
 								<ul class="grid-social">
 									<li><a class="facebook" href="#"><span> </span></a></li>
@@ -139,6 +150,7 @@
 							</div>
 
 
+						</div>
 						</div>
 						<?php endforeach;?>
 						<div class="clear"> </div>
