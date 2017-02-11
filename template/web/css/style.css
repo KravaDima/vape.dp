@@ -43,6 +43,38 @@ body{
 	color: #E45D5D;
 	text-decoration: underline; 
 }
+.cart-in{
+	width: 80%;
+	float: left;
+	padding: 20px;
+	border: 1px #eee solid;
+}
+.cart-in img{
+	margin-top: -30px;
+}
+.item-cart{
+	min-height: 100px;
+	border-bottom: 1px #eee solid;
+	clear: both;	
+}
+.item-img, .item-cart-price, .item-quantity, .item-del{
+	float: left;
+	width: 10%;
+	margin: 20px 10px 40px 0;
+}
+.item-name{
+	float: left;
+	width: 30%;
+	margin: 20px 10px 40px 0;
+	font-size: 0.8em;
+}
+.cart-price{
+	width: 100%;
+	margin: 20px;
+	font-size: 1.3em;
+	float: left;
+
+}
 #raiting {
 	position:relative; 
 	height:16px; 
