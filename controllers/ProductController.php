@@ -7,6 +7,7 @@ class ProductController
 		$product = Product::getProductById($id);
 		$title = $product['name'];
 		$description = $product['name'];
+		$categoryProduct = Category::getCategoryById($product['category_id']);
 		$dopprod = Product::getProductComponent($product);
 		require_once(ROOT . "/views/product/view.php");
 		
