@@ -62,7 +62,7 @@
 									<option><?=$product['size']?> <?=$product['vol']?></option>
 								</select>
 							</ul>
-							<input data-id="<?php echo $product['id'];?>" type="button" class="add-to-cart" value="Добавить в корзину" />
+							<input data-id="<?php echo $product['id'];?>" type="button" class="add-to-cart add2cart" value="Добавить в корзину" />
 							<div id="load_info"><img src=<?ROOT?>"/template/web/images/load.gif" /></div>
 							<span id="add-item"><?=$product["name"]?> упешно добавлен в <a href="/cart">корзину!</a></span>
 							<ul class="product-share">

@@ -161,8 +161,8 @@
 			</script>
 			<script>
 				$(document).ready(function(){
-					$('.add-to-cart').click(function(){
-						$('.add-to-cart, #load_info img').toggle();
+					$('.add2cart').click(function(){
+						$('.add2cart, #load_info img').toggle();
 						$('#add-item, #load_info img').toggle();
 					})
 				});
